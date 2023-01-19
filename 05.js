@@ -15,6 +15,13 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  let propiedadDeseada = [];
+  propiedadDeseada = array.map(function(elemento){
+    return elemento[propiedad];
+  })
+
+  return propiedadDeseada;
+
 }
 
 // No modifiques nada debajo de esta linea //
